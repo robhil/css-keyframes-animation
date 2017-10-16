@@ -14,8 +14,6 @@ describe('CssKeyframesAnimation', () => {
     });
   });
 
-
-
   describe('.generateCss', () => {
     it ('generates string CSS based on object', () => {
       const animation = new CssKeyframesAnimation();
